@@ -13,7 +13,7 @@ app.use(auth);
 app.use("/product", prodRouter);
 
 app.listen(process.env.Port, async () => {
-  await Connect();
+  await Connect;
   console.log("Connected to database");
   console.log(`Server is running on port ${process.env.Port}`);
 });
