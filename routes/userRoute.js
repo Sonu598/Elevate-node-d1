@@ -24,3 +24,5 @@ userRouter.post("/login", (req, res) => {
     res.status(401).json({ message: "Invalid credentials" });
   }
 });
+
+module.exports = { userRouter };
